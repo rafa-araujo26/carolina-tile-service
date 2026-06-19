@@ -66,19 +66,19 @@ export default function Home() {
           backgroundImage: "url('/hero.png')",
         }}
       >
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
 
         <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col px-6 py-8">
-          <header className="flex items-center justify-between gap-4">
+          <header className="flex items-center justify-between border-b border-white/10 bg-black/20 clackdrop-blur-md px-6 py-4 rounded-2x1">
             <img
-              src="/logo.png"
+              src="/logo-horizontal.png"
               alt="Carolina Tile Services"
-              className="h-24 w-auto md:h-32"
+              className="h-28 md:h-42 w-autoo opacity-60"
             />
 
             <a
               href="tel:+18288292837"
-              className="rounded-full bg-[#343A40] px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
+              className="rounded-full bg-[#B58A58] px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
             >
               📞 (828) 829-2837
             </a>
@@ -108,7 +108,7 @@ export default function Home() {
 
               <a
                 href="#services"
-                className="rounded-full border border-[#D9D7D2] px-8 py-4 font-semibold text-white hover:bg-white/10"
+                className="rounded-full border border-white/40 px-8 py-4 font-semibold text-white hover:bg-white/10"
               >
                 View Services
               </a>
