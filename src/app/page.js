@@ -17,6 +17,16 @@ export default function Home() {
     "/project-7.jpeg",
     "/project-8.jpeg",
     "/project-9.jpeg",
+    "/project-10.png",
+    "/project-11.png",
+    "/project-12.png",
+    "/project-13.png",
+    "/project-14.png",
+    "/project-15.png",
+    "/project-16.png",
+    "/project-17.png",
+
+
   ];
 
   const reviews = [
@@ -63,7 +73,7 @@ export default function Home() {
       <section
         className="relative min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url('/hero.png')",
+          backgroundImage: "url('/hero2.png')",
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
