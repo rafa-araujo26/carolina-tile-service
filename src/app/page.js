@@ -63,7 +63,7 @@ export default function Home() {
       <section
         className="relative min-h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url('/herob.png')",
+          backgroundImage: "url('/hero.png')",
         }}
       >
         <div className="absolute inset-0 bg-black/70"></div>
@@ -131,10 +131,10 @@ export default function Home() {
             {[
               "Bathroom Tile",
               "Kitchen Backsplash",
-              "Floor Tile Installation",
-              "Shower Remodeling",
-              "Tile Repair",
-              "Custom Tile Work",
+              "Luxury Vinyl Floor Tile Installation",
+              "Laminate Flooring",
+              "Hardwood Flooring",
+              "Remodel",
             ].map((service) => (
               <div
                 key={service}
