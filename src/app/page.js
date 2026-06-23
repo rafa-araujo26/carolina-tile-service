@@ -257,7 +257,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 text-lg text-[#6F7478]">
-            From small repairs to complete tile projects, Carolina Tile Services
+            From custom tile instalations to complete bathroom remodels, Carolina Tile Services
             focuses on delivering a smooth experience and a finished result you
             can be proud of.
           </p>
@@ -281,7 +281,7 @@ export default function Home() {
             </a>
 
             <a
-              href="mailto:contact@carolinatileservices.com"
+              href="malito:Justin@carolinatileservices.com"
               className="rounded-full border border-white/30 px-8 py-4 font-semibold hover:bg-white/10"
             >
               Send an Email
