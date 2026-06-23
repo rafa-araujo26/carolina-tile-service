@@ -264,6 +264,34 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="bg-[#F8F6F1] px-6 py-20">
+  <div className="mx-auto max-w-4xl text-center">
+    <div className="text-3xl text-[#B58A58]">
+      ★★★★★
+    </div>
+
+    <h2 className="mt-4 text-4xl font-bold">
+      5-Star Rated
+    </h2>
+
+    <p className="mt-4 text-lg text-[#6F7478]">
+      Trusted by homeowners throughout the Carolinas
+    </p>
+
+    <div className="mt-10">
+      <a
+        href="https://www.google.com/search?q=Carolina+Tile+Services#lkt=LocalPoiReviews"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-full bg-[#B58A58] px-8 py-4 font-semibold text-white hover:opacity-90"
+      >
+         Read Google Reviews
+      </a>
+    </div>
+  </div>
+</section>
+
+
       <section id="contact" className="bg-[#343A40] px-6 py-24 text-white">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-4xl font-bold">Ready to start your project?</h2>
@@ -284,7 +312,7 @@ export default function Home() {
               href="malito:Justin@carolinatileservices.com"
               className="rounded-full border border-white/30 px-8 py-4 font-semibold hover:bg-white/10"
             >
-              Send an Email
+              Get a free quote
             </a>
           </div>
         </div>
