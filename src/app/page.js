@@ -95,7 +95,7 @@ export default function Home() {
 
             <p className="mt-6 max-w-2xl text-lg text-[#F8F6F1] md:text-xl">
               Premium bathroom remodels, custom showers, kitchen backsplashes,
-              and elegant tile installations throughout Charlotte, NC.
+              and elegant tile installations throughout Carolinas.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
