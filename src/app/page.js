@@ -7,28 +7,25 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 export default function Home() {
-  const projects = [
-    "/project-1.jpeg",
-    "/project-2.jpeg",
-    "/project-3.jpeg",
-    "/project-4.jpeg",
-    "/project-5.jpeg",
-    "/project-6.jpeg",
-    "/project-7.jpeg",
-    "/project-8.jpeg",
-    "/project-9.jpeg",
-    "/project-10.png",
-    "/project-11.png",
-    "/project-12.png",
-    "/project-13.png",
-    "/project-14.png",
-    "/project-15.png",
-    "/project-16.png",
-    "/project-17.png",
-
-
-  ];
-
+ const projects = [
+  "/project-1.jpeg",
+  "/project-2.jpeg",
+  "/project-3.jpeg",
+  "/project-4.png",
+  "/project-5.jpeg",
+  "/project-6.jpeg",
+  "/project-7.jpeg",
+  "/project-8.jpeg",
+  "/project-9.jpeg",
+  "/project-10.png",
+  "/project-12.png",
+  "/project-13.png",
+  "/project-14.png",
+  "/project-15.png",
+  "/project-16.png",
+  "/project-17.png",
+  
+];
   const reviews = [
     {
       name: "Kevin McFelea",
@@ -90,7 +87,7 @@ export default function Home() {
               href="tel:+18288292837"
               className="rounded-full bg-[#B58A58] px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
             >
-              📞 (828) 829-2837
+              📞 CALL NOW
             </a>
           </header>
 
@@ -134,17 +131,17 @@ export default function Home() {
           </p>
 
           <h2 className="mt-3 text-4xl font-bold">
-            Professional tile solutions for your home.
+            Beautiful spaces built with premium craftsmanship.
           </h2>
 
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {[
               "Bathroom Tile",
               "Kitchen Backsplash",
-              "Luxury Vinyl Floor Tile Installation",
+              "Luxury Vinyl Flooring",
               "Laminate Flooring",
               "Hardwood Flooring",
-              "Remodel",
+              "Home Remodeling",
             ].map((service) => (
               <div
                 key={service}
