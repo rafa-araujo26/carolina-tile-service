@@ -9,21 +9,22 @@ import "swiper/css/pagination";
 export default function Home() {
  const projects = [
   "/project-1.jpeg",
-  "/project-2.jpeg",
-  "/project-3.jpeg",
-  "/project-4.png",
+  "/project-17.png",
+  "/project-4.jpeg",
+  "/project-16.png",
   "/project-5.jpeg",
-  "/project-6.jpeg",
+  "/project-15.png",
   "/project-7.jpeg",
-  "/project-8.jpeg",
+  "/project-13.png",
   "/project-9.jpeg",
   "/project-10.png",
   "/project-12.png",
-  "/project-13.png",
+  "/project-6.jpeg",
   "/project-14.png",
-  "/project-15.png",
-  "/project-16.png",
-  "/project-17.png",
+  "/project-3.jpeg",
+  "/project-2.jpeg",
+  "/project-8.jpeg",
+  "/project-11.png",
   
 ];
   const reviews = [
