@@ -1,9 +1,9 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://carolinatileservices.com',
+      url: "https://carolinatileservices.com",
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: "weekly",
       priority: 1,
     },
   ];
