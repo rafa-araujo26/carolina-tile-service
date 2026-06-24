@@ -1,6 +1,4 @@
-import { MetadataRoute } from 'next'
-
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   return [
     {
       url: 'https://carolinatileservices.com',
@@ -8,5 +6,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly',
       priority: 1,
     },
-  ]
+  ];
 }
